@@ -1,9 +1,4 @@
 import renderTable from '../render';
-// import db from './data';
-
-// test('function should work', () => {
-//   expect(demo(1)).toBe(1);
-// });
 
 test('table should be rendered', () => {
   document.body.innerHTML = '<div class="container"></div>';
@@ -22,6 +17,5 @@ test('table should be rendered', () => {
     },
   ]);
   const table = document.querySelector('table');
-  // expect(table).toBe(16);
   expect(table).toBeTruthy();
 });
